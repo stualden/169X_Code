@@ -1,25 +1,26 @@
 #pragma once
-#include "main.h"
 #include "globals.hpp"
+#include "main.h"
+
 
 constexpr double kP = 1.0;
 constexpr double kD = 3.0;
 
-//double angleDifference(double angle1, double angle2);
-//void setoveTargetDistance(double distance);
-//oid setMoveTargetUnits(int encoderUnits);
-//void setAngleTargetRelative(double degrees);
-//void setAngleTargetAbsolute(double degrees);
-//void setFourBarPosition(int encoderUnits);
-//void wait(int percentComplete);
-//void close_awp();
-//void far_awp();
-//void check_close_elim();
-//void close_elim();
-//oid far_elim();
-//oid prog();
+// double angleDifference(double angle1, double angle2);
+// void setoveTargetDistance(double distance);
+// oid setMoveTargetUnits(int encoderUnits);
+// void setAngleTargetRelative(double degrees);
+// void setAngleTargetAbsolute(double degrees);
+// void setFourBarPosition(int encoderUnits);
+// void wait(int percentComplete);
+// void close_awp();
+// void far_awp();
+// void check_close_elim();
+// void close_elim();
+// oid far_elim();
+// oid prog();
 
-void matchstop(){
+/*void matchstop(){
 
     leftWheelsBack.move(0);
     leftWheelsFront.move(0);
@@ -81,3 +82,4 @@ void intake_out(){
   intakeMotor.move(-100);
 
 }
+*/

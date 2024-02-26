@@ -5,10 +5,10 @@
 pros::Controller controller(CONTROLLER_MASTER);
 pros::Motor leftWheelsFront(LEFT_WHEELS_PORT);
 pros::Motor leftWheelsBack(LEFT_WHEELS_PORT2);
-pros::Motor leftWheelMiddle(LEFT_WHEELS_PORT3);
+pros::Motor leftWheelsMiddle(LEFT_WHEELS_PORT3);
 pros::Motor rightWheelsFront(RIGHT_WHEELS_PORT);
 pros::Motor rightWheelsBack(RIGHT_WHEELS_PORT2);
-pros::Motor rightWheelMiddle(RIGHT_WHEELS_PORT3);
+pros::Motor rightWheelsMiddle(RIGHT_WHEELS_PORT3);
 pros::Motor cataMotor(CATA_MOTOR_PORT);
 pros::Motor intakeMotor(INTAKE_MOTOR_PORT);
 pros::Motor fourBarMotorRight(FOUR_BAR_MOTOR_PORT);
